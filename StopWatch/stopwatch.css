@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 3rem;
+  background-color: antiquewhite;
+}
+
+#kronometre{
+    border: 1px solid #00A6ED;
+    background-color: aliceblue;
+    padding: 2rem;
+    border-radius: 3.5rem;
+}
+
+#baslatdurdur {
+  border: none;
+  background-color: transparent;
+  font-size: 3rem;
+  
+}
+
+#baslatdurdur:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#sifirla {
+  border: none;
+  background-color: transparent;
+  font-size: 3rem;
+  
+}
+
+#sifirla:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+.buttons{
+    margin-top: 10px;
+    
+}
